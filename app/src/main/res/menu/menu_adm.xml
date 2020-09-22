@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_start"
+        android:icon="@drawable/ic_home"
+        android:title="@string/Inicio"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/find_group"
+        android:icon="@drawable/ic_search"
+        android:title="@string/BuscarGrupo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/create_group"
+        android:icon="@drawable/ic_new_group"
+        android:title="@string/NuevoGrupo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/LogOut"
+        app:showAsAction="always" />
+
+
+</menu>

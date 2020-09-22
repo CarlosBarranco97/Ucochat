@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Chat.ChatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/RL"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nombreChat"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorGreen"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+        <ImageButton
+            android:id="@+id/volverMenu"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:background="@color/colorTransparent"
+            android:src="@drawable/ic_go_back" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/contenedorChat"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RL"
+        android:layout_above="@id/RL2">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:padding="5dp"
+        android:id="@+id/RL2">
+
+        <ImageButton
+            android:id="@+id/btn_envioDoc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_add_doc"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <EditText
+            android:id="@+id/mensajeEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn_envioDoc"
+            android:layout_toLeftOf="@+id/btn_envio"
+            android:background="@color/colorTransparent"
+            android:hint="Mensaje" />
+
+        <ImageButton
+            android:id="@+id/btn_envio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_action_name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

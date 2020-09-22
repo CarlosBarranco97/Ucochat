@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ucochat</string>
+    <string name="nombre">Nombre</string>
+    <string name="crear">Crear</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="profesor">Profesor</string>
+    <string name="registro">Registro</string>
+    <string name="pantallaR">UcoChat Registro de Usuario</string>
+    <string name="confprofesor">Confirmacion de Registro de Profesor</string>
+    <string name="claveprofesor">Introduzca la clave de profesor</string>
+    <string name="falloprofesor">Registrarse como alumno</string>
+    <string name="LogOut">LogOut</string>
+    <string name="NuevoGrupo">Nuevo Grupo</string>
+    <string name="FraseGrupo">Creacion de un Nuevo Grupo</string>
+    <string name="nombregrupo">Introduzca el nombre del grupo</string>
+    <string name="passwordgrupo">Introduzca la clave del grupo</string>
+    <string name="Listadogrupos">Grupos</string>
+    <string name="nombregrupomain">Nombre del Grupo</string>
+    <string name="Inicio">Inicio</string>
+    <string name="Busquedagrupo">Busqueda de un nuevo Grupo</string>
+    <string name="nombregrupoprofesor">Introduzca el correo del profesor</string>
+    <string name="BuscarGrupo">Buscar Grupo</string>
+    <string name="ListaUsuarios">Lista de Usuarios</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

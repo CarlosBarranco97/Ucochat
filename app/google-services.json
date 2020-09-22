@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1091989874741",
+    "firebase_url": "https://ucochat.firebaseio.com",
+    "project_id": "ucochat",
+    "storage_bucket": "ucochat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091989874741:android:d855e5f41fff470a",
+        "android_client_info": {
+          "package_name": "com.example.ucochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091989874741-gtv3he0a7h5i37fhrgmbj1p4bi7nb09i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucochat",
+            "certificate_hash": "1361bf4a526bdbac214c6aba74ffde6251bb203e"
+          }
+        },
+        {
+          "client_id": "1091989874741-rgo78904aq9m9otrvn3qosieov8b07pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB09jr6pPXNtj195JKT-8EYqLOTB5dFkcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091989874741-rgo78904aq9m9otrvn3qosieov8b07pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
